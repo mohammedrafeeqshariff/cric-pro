@@ -1,0 +1,99 @@
+/* @import url("https://fonts.googeapis.com/css2?family=Poppins:wght@300;600;900&display=swap"); */
+
+
+.background_image{  
+    background: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    height: 100vh;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+  .table {
+    width: 75%;
+    height: 425px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgb(160, 125, 125);
+    border-spacing: 0px;
+  }
+  
+  .logo-img{
+    width: 150px;
+    margin-left: auto;
+    margin-right: 40px;
+  }
+  .logo-img img{
+    width: 100%;
+  }
+  h1{
+    font-size: 40px;
+    margin: 0px;
+  }
+  h3{
+    font-size: 20px;
+    opacity: .5;
+    letter-spacing: .4px;
+    margin: 0px;
+  }
+  
+  .table-heading{
+    justify-content: space-between;
+    border: 1px solid rgb(255, 23, 23);
+    background-color: rgb(255, 27, 27);
+    margin: 0px;
+    padding: 0%;
+    color: white;
+  }
+  .last-coloumn{
+    text-align: end;
+    padding-right: 10px;
+    width: 50px;
+  }
+  .first-coloumn{
+    text-align: start;
+  }
+  
+  .name,.bowlers,.extras{
+    text-align: start;
+  padding-left: 10px;
+  }
+  .bowlers{
+    border-color: rgb(180, 154, 154);
+    color: rgb(180, 154, 154);
+  }
+  .name,#did-not-bat{
+    color: rgb(0, 112, 224);
+    padding-right: 70px;
+  }
+  #did-not-bat{
+    letter-spacing: .5px;
+  }
+  .innings{
+    color: rgb(255, 255, 255);
+  }
+  .batsman{
+    color: black;
+  }
+  .first-row{
+    font-weight: 500;
+  }
+  .footer{
+  
+    margin: 5px;
+    margin-top: 20px;
+  }
+  td,tr{
+    border: 1px solid black;
+    border-left: none;
+    border-right: none; 
+    border-color: rgb(180, 154, 154);
+  }
+  td:not(.name,.bowlers,#did-not-bat){
+    font-weight: 500;
+  }
+  
